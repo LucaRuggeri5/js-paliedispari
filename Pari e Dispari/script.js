@@ -22,8 +22,18 @@ console.log("Numero del computer:", numeroComputer);
 const somma = numeroUtente + numeroComputer;
 console.log("la somma dei due numeri è:", somma)
 
-if (somma % 2 === 0) {
-    console.log(somma, "è pari")
+
+function checkPariDispari() {
+    let risultato;
+    if (somma % 2 === 0) {
+        risultato = "pari";
 } else{
-    console.log(somma, " è dispari")
+    risultato = "dispari";
 }
+return risultato;
+}
+
+const pariDispari = checkPariDispari();
+console.log("il risultato è:", pariDispari)
+
+if ()
