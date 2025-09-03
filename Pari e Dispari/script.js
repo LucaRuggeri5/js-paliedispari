@@ -36,4 +36,8 @@ return risultato;
 const pariDispari = checkPariDispari();
 console.log("il risultato è:", pariDispari)
 
-if ()
+if (scelta === pariDispari) {
+    console.log("Hai vinto");
+} else {
+    console.log("Ha vinto il computer");
+}
